@@ -14,7 +14,7 @@ A production-ready URL Shortener that transforms long, complex URLs into short,
 shareable links and redirects users efficiently to the original destination.
 </p>
 
-<p><strong>Made by Aditya Singh</strong></p>
+<p><strong>Made by Aarush Kumar Dubey</strong></p>
 
 <hr>
 
@@ -184,7 +184,7 @@ SPRING_DATASOURCE_PASSWORD=your_db_password
 
 <h2>👨‍💻 Author</h2>
 <p>
-<strong>Aditya Singh</strong><br>
+<strong>Aarush Kumar Dubey</strong><br>
 Engineering Student | Backend Developer<br>
 Java &amp; Spring Boot Enthusiast
 </p>

@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    height: 100vh;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    padding: 35px;
+    width: 420px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1d2671;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16205c;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.result p {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.result-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f2f2f2;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+.result-box a {
+    color: #1d2671;
+    text-decoration: none;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+.copy-btn {
+    width: auto;
+    padding: 6px 12px;
+    font-size: 12px;
+    background: #c33764;
+    border-radius: 4px;
+}
+
+.copy-btn:hover {
+    background: #a52a52;
+}
+
+.error {
+    margin-top: 15px;
+    color: red;
+    font-size: 13px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #eee;
+}
